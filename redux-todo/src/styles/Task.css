@@ -1,0 +1,44 @@
+/* Task Styling */
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task:hover {
+    background-color: #e9ecef;
+  }
+  
+  .task span {
+    flex: 1;
+    font-size: 18px;
+    margin-right: 10px;
+    word-wrap: break-word;
+  }
+  
+  .task span.done {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .task button {
+    margin-left: 8px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task button:hover {
+    background-color: #c82333;
+  }
+  
